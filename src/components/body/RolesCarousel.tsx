@@ -7,16 +7,16 @@ import ring from "../../assets/ring.svg";
 function RoleCarousel() {
     return (
         <div className="flex justify-center items-center flex-col py-[10px]">
-            <div className="flex gap-[55px] items-center doppio w-full overflow-x-auto">
+            <div className="justify-center flex gap-[55px] items-center doppio w-full overflow-x-auto">
                 <div className="gap-5 px-[30px] py-[27px] bg-blue-500/20 rounded-[25px] flex items-center">
                     <img src={watchmaker}></img>
                     <span className="text-[#93C5FD] text-[32px]">Watchmaker</span>
                 </div>
-                <div className="gap-5 flex items-center">
+                <div className="flex items-center gap-5">
                     <img src={timekeeper}></img>
                     <span className=" text-amber-500 text-[32px]">Time keeper</span>
                 </div>
-                <div className="gap-5 flex items-center">
+                <div className="flex items-center gap-5">
                     <img src={user}></img>
                     <span className="text-teal-400 text-[32px]">User</span>
                 </div>
