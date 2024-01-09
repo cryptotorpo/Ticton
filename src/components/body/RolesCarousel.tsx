@@ -22,7 +22,7 @@ function RoleCarousel() {
                 </div>
             </div>
             <div className="gap-[55px] flex items-center justify-center flex-col lg:flex-row mt-[50px]">
-                <div className="w-[423px] h-[406px] flex justify-center items-center bg-[#8F96E630]/[19%] flex-col rounded-[25px]">
+                <div className="w-[400px] sm:w-[423px] h-[406px] flex justify-center items-center bg-[#8F96E630]/[19%] flex-col rounded-[25px]">
                     <img src={avatar}></img>
                     <span className="duru text-[16px] leading-[30px] text-white h-[105px] flex justify-center items-center">顯示角色名稱和形象</span>
                 </div>
